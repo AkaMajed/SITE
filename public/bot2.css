@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2f1; /* Light teal background for a calming effect */
+    color: #333;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#text-responses {
+    margin-bottom: 10px;
+}
+
+#messages {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.user-message {
+    background-color: #b2dfdb; /* Slightly darker teal for user messages */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.bot-message {
+    background-color: #ffffff; /* White background for bot messages */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#input-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+#text-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#send-text-button {
+    padding: 10px;
+    background-color: #00796b; /* Teal color for the button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
