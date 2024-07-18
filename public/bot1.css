@@ -1,0 +1,105 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f4f8; /* Light gray background */
+    color: #333333; /* Dark text color */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for text responses and messages */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    background-color: #ffffff;  /* White background for container */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Soft shadow for the box */
+}
+
+/* Text responses section */
+#text-responses {
+    width: 100%;
+}
+
+/* Messages area */
+#messages {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9; /* Very light gray background for messages */
+    border-radius: 8px;
+}
+
+/* Individual user and bot messages */
+.user-message {
+    background-color: #d4edda; /* Light green for user messages */
+    color: #155724; /* Dark green text color */
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: right;
+    max-width: 75%;
+    margin-left: auto;
+}
+
+.bot-message {
+    background-color: #cce5ff; /* Light blue for bot messages */
+    color: #004085; /* Dark blue text color */
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    max-width: 75%;
+}
+
+/* Input container for text input and send button */
+#input-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+/* Text input styling */
+#text-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #004d40; /* Dark teal border */
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Send button styling */
+#send-text-button {
+    background-color: #004d40; /* Dark teal background */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Send button hover effect */
+#send-text-button:hover {
+    background-color: #00332e; /* Slightly darker teal */
+}
+
+/* Ensure the input container and its children are centered */
+#input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; /* Space between input and button */
+}
